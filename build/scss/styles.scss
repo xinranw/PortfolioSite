@@ -1,0 +1,60 @@
+$nav-font: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+body, a{
+  color: black !important;
+}
+
+main{
+  padding-top: 56px;
+}
+
+.navigation{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  font-family: $nav-font;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid HSL(0, 0%, 90%);
+
+  li{
+    display: inline-block;
+  }
+  a{
+    padding: 15px 40px !important;
+  }
+}
+
+.center{
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#home{
+  .text-center{
+    margin-bottom: 40px;
+  }
+}
+
+.face-icon{
+  max-width: 300px;
+  width: 40vw;
+  height: 100%;
+}
+
+.home-title{
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 48px;
+}
+
+.home-subtitle{
+  // font-family: "GeoSansLight", Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}

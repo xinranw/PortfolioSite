@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/styles.css')
+
+  body
+    include ./partials/nav.jade 
+    block content
+
+    script(src="/javascripts/jquery.min.js")
+    //- script(src="/javascripts/jquery.fullPage.min.js")
+    script(src="/javascripts/app.js")
