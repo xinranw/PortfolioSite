@@ -36,7 +36,7 @@ var server = {
 };
 
 gulp.task('sass', function() {
-  return gulp.src('build/scss/*.scss')
+  return gulp.src('build/scss/**/*.scss')
   .pipe(sass())
   .on('error', function (err) { console.log(err.message); })
   .pipe(gulp.dest('public/stylesheets/'));
