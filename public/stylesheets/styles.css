@@ -12,7 +12,8 @@ main {
   font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  border-bottom: 1px solid HSL(0, 0%, 90%); }
+  border-bottom: 1px solid HSL(0, 0%, 90%);
+  z-index: 1000; }
   .navigation li {
     display: inline-block; }
   .navigation a {

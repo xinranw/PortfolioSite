@@ -17,6 +17,7 @@ main{
   font-size: 18px;
   font-weight: 400;
   border-bottom: 1px solid HSL(0, 0%, 90%);
+  z-index:1000;
 
   li{
     display: inline-block;
