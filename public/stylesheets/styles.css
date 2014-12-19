@@ -1,6 +1,29 @@
 @import url("//fonts.googleapis.com/css?family=Quicksand|Montserrat");
+#contact .icon {
+  width: 70px;
+  height: 70px; }
+
+.icon-github {
+  background-image: url(../images/github.png); }
+
+.icon-linkedin {
+  background-image: url(../images/linkedin.png); }
+
+.icon-email {
+  background-image: url(../images/email.png); }
+
+.icon-twitter {
+  background-image: url(../images/twitter.png); }
+
+body {
+  background-color: #fafafa; }
+
 body, a {
   color: black !important; }
+
+.icon {
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 main {
   padding-top: 56px; }
@@ -9,7 +32,7 @@ main {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: #fafafa;
   font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -20,13 +43,30 @@ main {
   .navigation a {
     padding: 15px 40px !important; }
 
+#initials {
+  width: 45px;
+  position: absolute;
+  height: 100%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: visible; }
+
 .center {
   display: flex;
   position: absolute;
   height: 100%;
   width: 100%;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap; }
+
+.center-vertical {
+  flex-direction: column; }
+
+.center-horizontal {
+  flex-direction: row; }
 
 #home .text-center {
   margin-bottom: 40px; }
